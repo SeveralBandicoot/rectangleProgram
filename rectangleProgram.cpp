@@ -18,6 +18,8 @@ int main()
   cout << "What is the width? ";
   cin  >> boxWidth;
   
+  bool x = box.setLength(boxLength);
+  bool y = box.setWidth(boxWidth);
   // Call member functions to set box dimensions.
   // If the function call returns false, it means the
   // argument sent to it was invalid and not stored. 
